@@ -308,8 +308,8 @@ class PreferencesFragment : PreferenceFragmentCompat(), VenmoListener {
     private companion object {
         const val VENMO_RELEASE_PACKAGE = "com.venmo"
         const val VENMO_DEBUG_PACKAGE = "com.venmo.fifa"
-        const val SANDBOX_ENVIRONMENT = "sandbox_tmxhyf7d_dcpspy2brwdjr3qn"
-        const val PRODUCTION_ENVIRONMENT = "production_t2wns2y2_dfy45jdj3dxkmz5m"
+        const val SANDBOX_ENVIRONMENT = "sandbox_zjxmgb4x_38kx88m8y5bf27c6"
+        const val PRODUCTION_ENVIRONMENT = "production_4xbgn8rb_vwfg3wgq8b3n3xss"
         const val CUSTOM_WEB = "custom"
 
         const val VARIANT = "variant"
