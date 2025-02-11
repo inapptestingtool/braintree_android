@@ -1,4 +1,5 @@
 [versions]
+constraintlayout = "2.2.0"
 gradle = "8.5.2"
 gradleNexusStagingPlugin = "0.21.2"
 kotlinGradlePlugin = "1.8.0"
@@ -44,6 +45,7 @@ btCardForm = "5.4.0"
 
 [libraries]
 # Androidx
+androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-annotation = { group = "androidx.annotation", name = "annotation", version.ref = "androidxAnnotation" }
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "androidxAppcompat" }
